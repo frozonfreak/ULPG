@@ -24,4 +24,4 @@ Define metrics before setting limits. There is no universal 250 ms total script-
 | --- | --- | --- | --- | --- | --- |
 | To define | To agree | To define | To define | To define | unverified |
 
-Record relevant main-thread responsiveness and impact on LCP, INP, and CLS. Laboratory diagnostics can guide improvements but cannot establish field outcomes. If field data is unavailable, state that explicitly and document the collection plan if measurement is authorized.
+Record relevant main-thread responsiveness and impact on LCP, INP, and CLS. Assess real-user performance with field data when available; identify page/origin scope and device segmentation. Use laboratory tests for diagnosis and regression detection. Neither a Lighthouse score nor appearance establishes field outcomes. If field data is unavailable, state that explicitly and document the collection plan if measurement is authorized.

@@ -14,6 +14,10 @@ Map visitor questions to the content needed to answer them. Place material condi
 
 Choose imagery for its job: show the actual product, explain a process, or provide context. A text-first page is valid. Avoid adding testimonials, FAQs, grids, or pricing sections just to fill a template.
 
+Justify the entry pattern using intent, familiarity and purpose (guide 4.5). Choose discovery routes such as search, categories, product families, audience routes or contextual links only when useful (4.6). Consider what first-time visitors need to learn and what returning visitors need to find or resume (8.3); accounts and tracking are optional.
+
+If a demonstration helps explain a capability, plan accurate labels for sample data and simulated actions, meaningful static or equivalent fallback content, and relevant loading/error states (6.1, 11.1). Brand-led or editorial entry can be appropriate without conventional benefit copy.
+
 ## 3. Apply the quality baseline
 
 Read the relevant guide sections. Use the existing design system and document consequential adaptations in the [decision record](../templates/decision-record.md). Inventory third-party code with the [script inventory](../templates/third-party-inventory.md). Set measurable targets with the [performance budget](../templates/performance-budget.md).
@@ -33,3 +37,5 @@ If you only have a screenshot, you can evaluate visible content and hierarchy. Y
 Fix issues in order of visitor impact. Recheck affected journeys and compare with the baseline. Report supported conclusions, open questions, and unverified items. Record a responsible person and next step for unresolved findings.
 
 Pin your adopted guide version or commit. Revisit the review when the offering, claims, languages, scripts, or user journeys change.
+
+Assign a content owner and appropriate freshness triggers or cadence (9.1, 15.4). Recheck changing prices, promotions, features, screenshots, availability, links and demonstrations; record verification sources and unresolved updates.

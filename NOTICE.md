@@ -6,4 +6,6 @@ This edition retains the substantive guidance, removes temporary correction mark
 
 Repository-authored material is licensed under [MIT](LICENSE). References to WCAG, Web HIG, and DDM do not imply endorsement, ownership, or relicensing of those works. No third-party source text is bundled as a separate standard.
 
-Suggested credit when citing this edition: “Universal Landing Page Guide (ULPG), v0.3.0, ULPG contributors.” Include the repository URL or commit when available. Suggested citation wording does not replace the license's notice requirements.
+Version 0.4.0 incorporates the user's supplied recommendations for six targeted additions: entry patterns, navigation/discovery, returning journeys, demonstrations, brand/editorial storytelling and content freshness. Its illustrative comparisons are documentation reviews, not independent audits of the public websites mentioned in that proposal.
+
+Suggested credit when citing this edition: “Universal Landing Page Guide (ULPG), v0.4.0, ULPG contributors.” Include the repository URL or commit when available. Suggested citation wording does not replace the license's notice requirements.

@@ -8,9 +8,19 @@ Copy this file into your project. Replace prompts with facts, assumptions, or ex
 - **Task scope:** New design / review / implementation / revision.
 - **Primary audience and relevant context:**
 - **Secondary audiences and journeys:**
+- **First-time and returning needs; evidence or assumptions:**
 - **Page purpose and visitor intent:**
 - **Primary next action; secondary actions:**
 - **Observable success criteria and measurement method:**
+
+## Entry and discovery decisions
+
+- Selected entry pattern or combination and rationale based on intent, familiarity and purpose (guide 4.5):
+- Navigation/discovery choices and rationale, including search, categories, audience routes, product families, contextual navigation or deep links where useful (4.6):
+- First-time/returning routes and whether persistent navigation is sufficient (8.3):
+- Demonstration purpose, actual capability, sample/live data, simulated/real actions and meaningful static or equivalent fallback, if applicable (6.1, 11.1):
+
+These are decisions to consider, not a requirement to add every feature, an account or visitor tracking. Record non-applicability where appropriate.
 
 ## Visitor questions and content
 
@@ -32,9 +42,19 @@ Copy this file into your project. Replace prompts with facts, assumptions, or ex
 
 ## Validation plan
 
+Include relevant find/explore/resume tasks, demonstration states and field versus laboratory performance evidence. Record missing evidence as unverified.
+
 | Acceptance criterion / guide section | Method and environment | Pass/fail rule | Evidence to capture | Responsible reviewer |
 | --- | --- | --- | --- | --- |
 | To complete | To complete | To complete | To complete | To complete |
+
+## Content maintenance
+
+| Changing claim / offer / asset / demonstration | Source | Owner | Last verified | Next trigger or cadence | Unresolved update |
+| --- | --- | --- | --- | --- | --- |
+| To identify | To record | To assign | Unverified | To agree | To record |
+
+Check prices, promotions, feature descriptions, screenshots, availability, discontinued offerings and broken demonstrations where relevant (9.1, 15.4). No fixed refresh interval is required.
 
 ## Unknowns and decisions
 

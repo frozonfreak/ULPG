@@ -18,6 +18,7 @@ REQUIRED = (
     "docs/references.md", "templates/page-brief.md", "templates/review.md",
     "templates/decision-record.md", "templates/third-party-inventory.md",
     "templates/performance-budget.md", "examples/editorial-review.md",
+    "examples/entry-pattern-regression.md",
     ".github/workflows/docs.yml",
 )
 
@@ -56,8 +57,8 @@ def main():
         sections = re.findall(r"^## (\d+)\. ", text, flags=re.M)
         if sections != [str(number) for number in range(1, 21)]:
             errors.append("Guide must retain ordered top-level sections 1 through 20")
-        if "**Version:** 0.3.0" not in text:
-            errors.append("Guide version must match initial edition 0.3.0; update checker for a release")
+        if "**Version:** 0.4.0" not in text:
+            errors.append("Guide version must match edition 0.4.0; update checker for a release")
 
     if errors:
         print("Documentation checks failed:")

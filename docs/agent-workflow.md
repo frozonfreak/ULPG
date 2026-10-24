@@ -14,9 +14,9 @@ Resolve design conflicts using guide section 17: binding obligations, approved p
 
 1. **Inspect context.** Read the brief, relevant files, and guide sections. Identify what is observed, assumed, missing, or outside the accessible evidence.
 2. **State the scope.** For a review, inspect and report. For implementation, preserve working routes, required information, and existing behavior while making authorized changes.
-3. **Map requirements.** Reference the guide version and section for each material finding. Do not turn optional techniques into mandatory requirements.
+3. **Map requirements.** Reference the guide version and section for each material finding. Justify the entry pattern (4.5), evaluate discovery routes (4.6) and consider first-time/returning needs (3, 8.3). Do not turn optional techniques into mandatory requirements.
 4. **Act within scope.** Make useful progress with reasonable, documented assumptions. Ask for missing information when it would materially change a consequential decision; do not fabricate evidence to fill gaps.
-5. **Validate.** Use available tools to execute relevant checks. Record commands or methods, target revision, environments, results, and limitations. Tool availability is not proof a test ran.
+5. **Validate.** Use available tools to execute relevant checks, including demonstration labels, fallback/states and execution feedback where relevant (6.1, 11.1). Record commands or methods, target revision, environments, results, and limitations. Tool availability is not proof a test ran.
 6. **Report.** Use the [review template](../templates/review.md). Separate observed issues, proposed changes, implemented changes, and verified results.
 
 ## Evidence contract
@@ -34,7 +34,7 @@ A proposed change remains unverified until evaluated. A heuristic conclusion may
 ## Copyable review prompt
 
 ```text
-Review [page URL or source path] against ULPG v0.3.0.
+Review [page URL or source path] against ULPG v0.4.0.
 Read docs/guide.md and docs/agent-workflow.md from the supplied ULPG repository.
 Audience: [audience]. Purpose: [purpose]. Next action: [action].
 Project constraints and supported environments: [constraints].
@@ -48,11 +48,15 @@ Do not infer executed tests, legal compliance, or measured outcomes from appeara
 ## Copyable implementation prompt
 
 ```text
-Implement the attached page brief using ULPG v0.3.0.
+Implement the attached page brief using ULPG v0.4.0.
 Read docs/guide.md and docs/agent-workflow.md from the supplied ULPG repository.
 Work in [project path] within [authorized scope].
 Preserve [design system, required content, routes, and supported journeys].
 Choose structure and visuals based on visitor questions; avoid fixed section quotas.
+Justify the entry pattern and navigation using intent, familiarity and purpose.
+Consider first-time and returning journeys without assuming accounts or tracking.
+Label simulated demonstrations accurately and provide meaningful fallbacks.
+Record content ownership and freshness triggers for changing information.
 Document consequential decisions using templates/decision-record.md.
 Run relevant checks available in the project, record actual results, and disclose gaps.
 Report changed behavior, validation, open issues, and any unverified acceptance items.

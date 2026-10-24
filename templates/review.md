@@ -23,10 +23,13 @@ Prioritize blockers to access, essential actions, or truthful decision-making be
 These prompts group guide section 18 for reporting; use the full guide to determine applicable requirements. Each checkbox means **review coverage recorded**, not that the page passed. Add corresponding finding rows, including unverified or excluded areas.
 
 - [ ] Audience, purpose, hierarchy, initial viewport, and useful content depth.
+- [ ] Entry-pattern rationale, discovery/navigation, deep links, and first-time/returning needs (3, 4.5, 4.6, 8.3).
 - [ ] Purposeful text and visuals, approved brand, and supported claims.
 - [ ] Clear actions, semantics, keyboard operation, focus, contrast, and accessible media.
 - [ ] Consent/compliance UI interaction mode, obligations, and page stability.
 - [ ] Essential content and actions without animation; reduced motion.
+- [ ] Demonstration capability/data labels, truthful simulated/real execution feedback, meaningful fallback and relevant states (6.1, 11.1).
+- [ ] Content freshness, ownership, verification sources and review triggers (9.1, 15.4).
 - [ ] Responsive reflow, zoom, and supported localized content.
 - [ ] Core Web Vitals evidence, project budgets, and third-party inventory.
 - [ ] Relevant SEO, comprehension, usability, and intended journey evaluation.

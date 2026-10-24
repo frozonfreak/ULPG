@@ -9,9 +9,11 @@ ULPG is an independent guide. These references support particular topics; they d
 | [WAI-ARIA APG: Modal Dialog Pattern](https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/) | 8 | Implementation guidance for actual modal dialogs; do not apply focus trapping to nonmodal notices. |
 | [web.dev: Web Vitals](https://web.dev/articles/vitals) | 12 | Core Web Vitals definitions and good-experience thresholds, evaluated at the 75th percentile and segmented by mobile and desktop. |
 | [web.dev: Defining Core Web Vitals thresholds](https://web.dev/articles/defining-core-web-vitals-thresholds) | 12 | Rationale and measurement context for the thresholds. |
-| [Google: About PageSpeed Insights](https://developers.google.com/speed/docs/insights/v5/about) | 12, 15 | Distinguishes field and laboratory data. A laboratory result is not proof of field performance. |
+| [Google: About PageSpeed Insights](https://developers.google.com/speed/docs/insights/v5/about) | 12, 15 | Field data describes real-user experience; laboratory data supports diagnosis. Record page versus origin scope. A Lighthouse score does not establish field performance. |
 
 The initial edition's WCAG and Core Web Vitals references were checked on 2026-10-24. Links provide ongoing sources; this date is not a claim that every linked page or all external recommendations have been fully audited.
+
+For v0.4.0, WCAG 2.2, Web Vitals and About PageSpeed Insights were rechecked on 2026-10-24. The accessibility baseline and metric thresholds are unchanged. Entry patterns, navigation, returning journeys, demonstration selection and freshness practices are ULPG design-process guidance, not additional external compliance obligations. The fictional scenarios do not claim to audit any named brand or reproduce external research.
 
 ## Optional companion approaches
 

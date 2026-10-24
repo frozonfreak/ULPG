@@ -1,6 +1,6 @@
 # Universal Landing Page Guide (ULPG)
 
-**Version:** 0.3.0 — Initial open-source edition\
+**Version:** 0.4.0 — Page experience selection\
 **Status:** Design guideline, not a certified industry standard\
 **Scope:** Web landing pages, homepages, product pages and campaign entry points\
 **Dependencies:** None\
@@ -53,6 +53,7 @@ Before selecting layouts, typography, imagery or color, identify:
 | Purpose | Why does the page exist? |
 | Visitor intent | What brought visitors here? |
 | Familiarity | What do visitors already understand? |
+| Visit context | What do first-time and returning visitors need to discover, find again or resume? |
 | Primary questions | What must they know to proceed? |
 | Decision | What choice or action is expected? |
 | Trust requirements | What claims require evidence? |
@@ -65,6 +66,7 @@ Before selecting layouts, typography, imagery or color, identify:
 - **MUST:** Identify the page's primary audience and purpose.
 - **MUST:** Preserve applicable existing brand, accessibility and platform requirements unless a redesign is explicitly intended and approved; legal and accessibility obligations remain applicable.
 - **SHOULD:** Identify secondary audiences and determine whether they need separate journeys.
+- **SHOULD:** Identify differences between first-time and returning visitor needs using available evidence; record assumptions without assuming an account or tracking is needed.
 - **MAY:** Develop personas or journey maps when multiple audiences or complex decisions justify them.
 
 Do not assume that demographic categories alone determine visual preferences or usability needs.
@@ -85,9 +87,9 @@ Organize information according to visitors' decision needs. A typical commercial
 
 The first viewport is the initially visible portion of a page; its dimensions vary by device, browser UI, zoom and settings. It **SHOULD** communicate the subject or offering, relevant audience where needed, primary value or message, and a route to the next meaningful action or content.
 
-A commercial landing page commonly has a headline, supporting text, primary action and meaningful visual. No universal hero height, word count or image percentage applies.
+A commercial landing page commonly has a headline, supporting text, primary action and meaningful visual. A recognizable product, service-selection interface or editorial subject can instead communicate the primary message without conventional benefit-led copy. Add context where recognition cannot reasonably be assumed. No universal hero height, word count or image percentage applies.
 
-- **MUST:** Make the essential proposition understandable without requiring animation, a carousel or a hidden panel.
+- **MUST:** Make the essential subject, offering or task understandable without requiring animation, a carousel or a hidden panel.
 - **SHOULD:** Make the primary next step discoverable early.
 - **MUST NOT:** Compress information until readability or comprehension suffers.
 - **MAY:** Let imagery continue below the initial viewport, especially on narrow screens.
@@ -106,6 +108,36 @@ No universal page-length limit applies. Choose length according to complexity, v
 
 - **SHOULD:** Remove repetitive sections that add no understanding.
 - **MUST NOT:** Require a fixed number of sections across unrelated websites.
+
+### 4.5 Page entry and hero patterns
+
+Select the initial experience by visitor intent, familiarity and page purpose. A hero is one possible presentation, not a required component.
+
+| Illustrative pattern | When it may fit | Initial viewport emphasis | Useful deeper content |
+|---|---|---|---|
+| Proposition-first | Visitors need to understand an unfamiliar offering | Clear proposition, context and next step | Capabilities, suitability and evidence |
+| Product-first | The product is the main subject and recognition is supported | Accurate product representation with necessary identification | Specifications, options, limitations and availability |
+| Task-first | Visitors arrive to complete a known task | Search, service selection or task entry | Results, navigation help and contextual information |
+| Discovery-first | Visitors need to explore an assortment or range | Categories, collections or useful exploration routes | Comparisons, filtering and offering details |
+| Editorial-first | Reading, a story or a brand subject is the purpose | Recognizable subject and route into the narrative | Context, sources and related content |
+
+- **MUST:** Justify the selected entry pattern using intent, familiarity and purpose; record the rationale in the brief or decision record.
+- **SHOULD:** Check that the pattern makes the subject and next step understandable to relevant visitors, including those arriving through deep links.
+- **MAY:** Combine patterns or vary them across routes, audiences and devices when justified, while preserving essential information and supported journeys.
+
+These categories are illustrative, not exhaustive templates or industry assignments. Brand recognition alone does not establish comprehension for every audience.
+
+### 4.6 Discovery and navigation architecture
+
+Choose how visitors find the offering or content they need, beyond the initial viewport.
+
+- **SHOULD:** Evaluate search, categories, audience routes, product families, contextual navigation and deep links against the content range and visitor tasks. A simple page may need only a few direct links.
+- **SHOULD:** Use labels visitors understand and preserve orientation between entry points, related content and detail pages; internal organization need not dictate navigation.
+- **MUST:** Keep decision-critical information and supported destinations reachable across relevant devices and input methods.
+- **SHOULD:** When search or filtering is offered, provide understandable results, empty/error states and an alternative discovery route where useful.
+- **SHOULD:** Evaluate whether visitors can find a known item and discover an unfamiliar relevant offering; see section 15 for validation.
+
+Search, large menus and audience segmentation are choices, not mandatory features. Do not require a marketing hero before task entry or content discovery.
 
 ## 5. Text and information density
 
@@ -158,6 +190,15 @@ Select representations by their communicative purpose:
 
 A text-heavy page is not inherently inferior to a visual-heavy one.
 
+### 6.1 Interactive demonstrations
+
+- **SHOULD:** Choose an interactive demonstration only when participation explains a capability better than a screenshot, diagram, video or text; consider effort, accessibility and loading cost.
+- **MUST:** Represent capabilities and limitations accurately and identify illustrative/sample data, simulated behavior and live functionality where visitors could confuse them. Illustrative mockups must be clearly labeled and must not be presented as real product screenshots or evidence that unavailable functionality exists.
+- **MUST NOT:** Imply that a simulated action sent a message, changed an account, completed a purchase or executed another real action.
+- **SHOULD:** Provide a meaningful static explanation or equivalent fallback that preserves essential understanding when the demonstration is unavailable. Label a fallback so it is not mistaken for an operable control.
+
+See section 11 for interaction and enhancement behavior.
+
 ## 7. Visual identity and color
 
 ### 7.1 Existing visual systems
@@ -181,6 +222,8 @@ Modern presentation is not defined by gradients, glass effects, animation, overs
 - **SHOULD:** Favor coherent typography, intentional spacing, hierarchy and predictable interaction.
 - **MAY:** Use expressive techniques where they reinforce purpose.
 - **MUST NOT:** Sacrifice performance, accessibility or comprehension for fashion.
+
+Brand-led, editorial and promotional storytelling **MAY** lead with a recognizable product, subject or narrative instead of explicit benefit copy. Preserve enough context for the intended audience, truthful material conditions and a discoverable next step. Expressive presentation does not justify withholding necessary information or inventing explanatory content.
 
 ## 8. Calls to action, visitor journeys and compliance UI
 
@@ -208,6 +251,12 @@ Consent notices, age gates, regional disclaimers and other compliance interfaces
 - **SHOULD:** Keep page navigation and important context discoverable where legally permissible, without obscured keyboard focus or unreachable controls.
 - **SHOULD:** Minimize data collection to what is necessary for the stated purpose and disclose the use of optional analytics and marketing technologies accurately.
 
+### 8.3 First-time and returning journeys
+
+- **SHOULD:** Determine whether persistent navigation or separate entry routes help first-time visitors learn and returning visitors reach known content, access an existing account or resume a task, where those functions exist.
+- **SHOULD:** Keep relevant returning routes discoverable without forcing repeated promotional sequences; retain explanations for visitors who need them.
+- **MAY:** Provide explicit choices such as browse, sign in or resume when justified by actual functionality. Personalization, registration and visitor tracking are not required; direct links and consistent navigation may be sufficient.
+
 ## 9. Evidence, trust and credibility
 
 Trust comes from verifiable information rather than decorative symbols. Evidence may include genuine demonstrations, customer case studies, reviews with provenance, pricing, support contacts, security details and return or cancellation terms.
@@ -217,6 +266,14 @@ Trust comes from verifiable information rather than decorative symbols. Evidence
 - **SHOULD:** Place relevant reassurance near the decision it affects.
 - **SHOULD:** Distinguish measurements from illustrative examples.
 - **SHOULD:** Review the freshness of material claims (for example, pricing, availability or supported features) as part of content maintenance.
+
+### 9.1 Content maintenance and freshness
+
+- **SHOULD:** Assign an owner and review triggers or a cadence appropriate to how quickly content changes. Check obsolete promotions, expired pricing, outdated feature descriptions or screenshots, broken demonstrations and discontinued offerings.
+- **SHOULD:** Update or withdraw stale material and check affected entry points, linked details and transaction conditions together. Clearly identify intentionally retained historical or archival content.
+- **MUST:** Continue to represent current offers and capabilities truthfully; a review date alone does not establish accuracy.
+
+No universal refresh interval is required. Record the source, last verification and next trigger for material information where useful.
 
 ## 10. Responsive, accessible and localized experiences
 
@@ -252,6 +309,13 @@ Motion may communicate feedback, continuity, spatial relationships or narrative.
 - **SHOULD:** Avoid unnecessary animation on routine controls.
 - **MAY:** Use expressive sequences or interactive storytelling when suitable.
 
+### 11.1 Progressive enhancement and demonstration states
+
+- **SHOULD:** Build from meaningful content and supported essential routes, then add optional demonstrations or storytelling. If an essential task needs scripting or a service, explain dependencies and provide a useful recovery route when unavailable.
+- **MUST:** Keep demonstrations operable with applicable keyboard and assistive-technology support; do not rely solely on dragging, hover or motion for essential meaning or actions.
+- **SHOULD:** Address loading, unavailable, error, completion and reset states as relevant, including slow or failed enhancement. Preserve the static explanation or equivalent fallback described in section 6.1.
+- **MUST:** Distinguish simulated completion from real execution in feedback as well as initial labels.
+
 ## 12. Performance and technical quality
 
 ### 12.1 Core Web Vitals
@@ -268,6 +332,7 @@ A modern landing page should prioritize meaningful content availability, respons
 - **SHOULD:** Avoid unnecessary JavaScript, oversized imagery, blocking resources and unexpected layout shifts.
 - **SHOULD:** Provide functional content before nonessential enhancement loads.
 - **MUST NOT:** Claim field performance based solely on laboratory testing.
+- **SHOULD:** Assess real-user performance with field data when available, documenting its page/origin scope, collection window and device segmentation. Use laboratory tests for diagnosis and regression detection; if field evidence is unavailable, mark field outcomes unverified. A Lighthouse score or visual appearance does not establish real-user performance. See [Google's field/lab explanation](https://developers.google.com/speed/docs/insights/v5/about).
 
 ### 12.2 Third-party scripts and analytics governance
 
@@ -311,9 +376,13 @@ Priorities change with purpose; none of these is a mandatory template.
 
 Confirm audience and purpose, hierarchy, evidence, existing design system, applicable requirements and documented trade-offs.
 
+Record the entry-pattern rationale (section 4.5), discovery/navigation choices (section 4.6) and first-time/returning needs (sections 3 and 8.3). Define relevant find, explore and resume tasks; do not invent a returning-user feature merely to complete a checklist.
+
 ### 15.2 During implementation
 
 Check semantics, responsive behavior, loading/error fallback where relevant, media optimization, focus, motion preferences, consent interface behavior, localized text and SEO metadata.
+
+For demonstrations, check capability/data labels, static or equivalent fallbacks, keyboard operation and truthful execution feedback with enhancements working, loading and unavailable. Record checks actually performed and remaining gaps.
 
 ### 15.3 After implementation
 
@@ -332,6 +401,10 @@ Use purpose-specific evaluation:
 | Conversion | Does the intended journey perform as measured? |
 
 Define business-specific conversion and comprehension thresholds rather than inventing universal figures. Record what was actually tested and untested.
+
+### 15.4 Ongoing maintenance
+
+Review changing content using section 9.1's ownership and triggers. Recheck offers, prices, feature descriptions, screenshots, availability, links and demonstrations after relevant changes. Record what was verified, when, against which source, and who will resolve stale or unverified information. No fixed review cadence or new tracking requirement follows from this guide.
 
 ## 16. Non-regression policy
 
@@ -375,15 +448,19 @@ Mark each item **pass, fail, not applicable or unverified**, with evidence where
 
 - [ ] Audience and purpose are clear.
 - [ ] Essential information follows a meaningful hierarchy.
-- [ ] The initial viewport communicates the proposition.
+- [ ] The initial viewport communicates the subject, offering or task; the entry pattern is justified by intent, familiarity and purpose.
+- [ ] Discovery and navigation support relevant known-item and exploration tasks across entry routes.
+- [ ] First-time and returning needs have been considered, with separate routes only where justified.
 - [ ] Below-the-fold content adds useful information.
 - [ ] Text and visuals have a purpose.
 - [ ] Visual system and brand are consistent with approved requirements.
 - [ ] Typography, contrast and interaction are accessible.
 - [ ] Material claims are accurate and supported.
+- [ ] Changing content has an appropriate maintenance owner and review triggers or cadence.
 - [ ] Next actions are discoverable and understandable.
 - [ ] Consent/compliance UI uses the correct modal or nonmodal pattern; applicable legal requirements, keyboard behavior and page stability are addressed.
 - [ ] Primary content and actions remain usable without animation.
+- [ ] Demonstrations, where used, explain capabilities truthfully, label simulated data/actions, and provide meaningful fallbacks and relevant states.
 - [ ] Responsive layouts and supported localized content preserve meaning and functionality; no universal 40% test is required.
 - [ ] Performance is evaluated against adopted Core Web Vitals and **project-defined** third-party budgets; no universal 250 ms cap is imposed.
 - [ ] Third-party scripts, purposes and applicable consent dependencies are documented.
@@ -412,4 +489,4 @@ It should be appropriate without decorative excess, concise without withholding 
 
 ---
 
-**Release status:** Initial open-source edition v0.3.0; independent implementation and user evaluations have not been run. No modifications to Web HIG, DDM, or any product repository are implied. Use the [human workflow](human-workflow.md), [agent workflow](agent-workflow.md), and [review template](../templates/review.md) to apply and evaluate this guide.
+**Release status:** Working guide v0.4.0. The [illustrative scenario comparison](../examples/entry-pattern-regression.md) is a heuristic review of guidance, not implementation or user evaluation. Independent implementation and user evaluations have not been run. No modifications to Web HIG, DDM, or any product repository are implied. Use the [human workflow](human-workflow.md), [agent workflow](agent-workflow.md), and [review template](../templates/review.md) to apply and evaluate this guide.
